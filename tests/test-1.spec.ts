@@ -38,6 +38,7 @@ test.describe('practiceTesting', () => {
     await expect(page.getByRole('link', { name: 'View profile' })).toBeVisible();
     await page.getByRole('link', { name: 'View profile' }).click();
     await expect(page.getByRole('heading', { name: 'Welcome user3' })).toBeVisible();
+    
   });
 });
 
